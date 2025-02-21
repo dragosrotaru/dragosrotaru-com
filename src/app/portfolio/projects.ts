@@ -12,6 +12,22 @@ export type Project = {
 
 export const Projects: Project[] = [
   {
+    title: "VentureKit",
+    description: `
+        Venturekit AI helps people start their own business. We build AI tools for business planning, competitor analysis, market research pitch decks and more. We use NextJS, OpenAI and Vercel to deliver streaming AI services to over 300,000 customers.
+    `,
+    image: "venturekit.png",
+    imageAlt: "VentureKit Site",
+  },
+  {
+    title: "EHN Canada",
+    description: `
+        EHN Canada is the largest network of mental health and addiction treatment centers in Canada. As team lead I am responsible for building out AI tools and customer facing applications to support admissions and care.
+    `,
+    image: "ehn.svg",
+    imageAlt: "EHN Canada Logo",
+  },
+  {
     title: "ALR CPA",
     description: `
         Built and launched customer success web platform. Updated  hiring process, policies and remote employee support, making 4 successful new hires. Improved SEO, content marketing and launched new analytics, drastically improving web vitals/lighthouse scores. Improved SOPs and infrastructure towards SOC 2 audit. Implemented CRM, sales process and content marketing strategy with AI.
